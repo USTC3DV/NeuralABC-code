@@ -42,6 +42,19 @@ Download the female SMPL model from http://smplify.is.tue.mpg.de/ and place `bas
 
 Download the trained model from [here](https://drive.google.com/drive/folders/1DdmswbhXbmmel2h3ovbMK1l1S5V9nLLb?usp=sharing) and place it in the folder of `./checkpoints`.
 
+## Usage
+
+Neural-ABC can generate clothed human bodies with decoupled attributes:
+
+```
+python generate.py
+```
+
+Identity, clothing, body shape, and actions can all be independently modified. Since the parameter space of Neural-ABC is continuous, the modified attributes can be continuous. The `-type` option includes `id`, `cloth`, `shape`, and `pose`.
+
+```
+python interpolate.py
+```
 
 
 ## Citation
