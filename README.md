@@ -31,8 +31,10 @@ If you have problems when installing [pytorch3d](https://github.com/facebookrese
 
 Build and install `meshudf`:
 
+```
 cd meshudf
 source setup.sh
+```
 
 If you have problems when installing [meshudf](https://github.com/cvlab-epfl/MeshUDF), please follow their instructions.
 
