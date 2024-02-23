@@ -30,3 +30,23 @@ If you find our paper useful for your work please cite:
 
 ## Contact
 For more questions, please contact honghuc@mail.ustc.edu.cn
+
+## Acknowledgement
+
+Our data is processed with the help of [DrapeNet](https://github.com/liren2515/DrapeNet) and [MeshUDF](https://github.com/cvlab-epfl/MeshUDF):
+```
+@inproceedings{de2023drapenet,
+  author = {De Luigi, Luca and Li, Ren and Guillard, Benoit and Salzmann, Mathieu and Fua, Pascal},
+  title = {{DrapeNet: Garment Generation and Self-Supervised Draping}},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  year = {2023}
+}
+
+
+@inproceedings{guillard2022udf,
+  author = {Guillard, Benoit and Stella, Federico and Fua, Pascal},
+  title = {MeshUDF: Fast and Differentiable Meshing of Unsigned Distance Field Networks},
+  booktitle = {European Conference on Computer Vision},
+  year = {2022}
+}
+```
