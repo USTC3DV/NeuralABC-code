@@ -29,4 +29,4 @@ If you find our paper useful for your work please cite:
 ```
 
 ## Contact
-For more questions, please contact lxz@tju.edu.cn
+For more questions, please contact honghuc@mail.ustc.edu.cn
