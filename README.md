@@ -33,8 +33,15 @@ For more questions, please contact honghuc@mail.ustc.edu.cn
 
 ## Acknowledgement
 
-Our data is processed with the help of [DrapeNet](https://github.com/liren2515/DrapeNet) and [MeshUDF](https://github.com/cvlab-epfl/MeshUDF):
+Our data is processed with the help of [StereoPIFu](https://github.com/CrisHY1995/StereoPIFu_Code), [DrapeNet](https://github.com/liren2515/DrapeNet) and [MeshUDF](https://github.com/cvlab-epfl/MeshUDF):
 ```
+@inproceedings{yang2021stereopifu,
+  author    = {Yang Hong and Juyong Zhang and Boyi Jiang and Yudong Guo and Ligang Liu and Hujun Bao},
+  title     = {StereoPIFu: Depth Aware Clothed Human Digitization via Stereo Vision},
+  booktitle = {{IEEE/CVF} Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year      = {2021}
+}
+
 @inproceedings{de2023drapenet,
   author = {De Luigi, Luca and Li, Ren and Guillard, Benoit and Salzmann, Mathieu and Fua, Pascal},
   title = {{DrapeNet: Garment Generation and Self-Supervised Draping}},
