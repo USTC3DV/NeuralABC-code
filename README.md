@@ -13,6 +13,34 @@ The clothed human body can deform into different body shapes and poses.
 
 ![pipeline](figs/pipeline.png)
 
+## Setup
+
+This code has been tested on Tesla V100. 
+
+Environment:
+* Ubuntu 20.04
+* python 3.8.17
+
+Our default, provided install method is:
+```
+conda env create -f environment.yml
+conda activate NeuralABC
+pip install -r requirements.txt
+```
+If you have problems when installing [pytorch3d](https://github.com/facebookresearch/pytorch3d/blob/main/INSTALL.md), please follow their instructions.
+
+Build and install `meshudf`:
+
+cd meshudf
+source setup.sh
+
+If you have problems when installing [meshudf](https://github.com/cvlab-epfl/MeshUDF), please follow their instructions.
+
+Download the female SMPL model from http://smplify.is.tue.mpg.de/ and place `basicModel_f_lbs_10_207_0_v1.0.0.pkl` in the folder of `./smpl_pytorch`.
+
+Download the trained model from [here](https://drive.google.com/drive/folders/1DdmswbhXbmmel2h3ovbMK1l1S5V9nLLb?usp=sharing) and place it in the folder of `./checkpoints`.
+
+
 
 ## Citation
 
