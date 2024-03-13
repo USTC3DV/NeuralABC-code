@@ -47,6 +47,7 @@ Download the trained model from [here](https://drive.google.com/drive/folders/1D
 Neural-ABC can generate clothed human bodies with decoupled attributes:
 
 ```
+cd script
 python generate.py
 ```
 
